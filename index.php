@@ -4,24 +4,6 @@
 
      <title>Easy As Pi </title>
 
-     <meta charset="UTF-8">
-     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-     <meta name="description" content="">
-     <meta name="keywords" content="">
-     <meta name="author" content="">
-     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-     <link rel="stylesheet" href="css/bootstrap.min.css">
-     <link rel="stylesheet" href="css/font-awesome.min.css">
-     <link rel="stylesheet" href="css/owl.carousel.css">
-     <link rel="stylesheet" href="css/owl.theme.default.min.css">
-
-     <!-- MAIN CSS -->
-     <link rel="stylesheet" href="css/mainstylesheet.css">
-
-</head>
-<body id="top" data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
-
      <!-- PRE LOADER -->
      <section class="preloader">
           <div class="spinner">
@@ -124,6 +106,14 @@
                          <div class="entry-form">
                               <form action="signup.php" method="post">
                                    <h2>Signup today</h2>
+
+                                   <p>➜ Instant access to multiple modules.</p>
+                                   <p></p>
+                                   <p>➜ No subscription fees.</p>
+                                   <p></p>
+                                   <p>➜ Communicate with experts.</p>
+                                   <p></p>
+                                   <p>➜ Improve results.</p>
 
                                    <button class="submit-btn form-control" id="form-submit">Get started</button>
                               </form>
@@ -340,5 +330,4 @@
      <script src="js/smoothscroll.js"></script>
      <script src="js/custom.js"></script>
 
-</body>
 </html>
