@@ -1,0 +1,31 @@
+<?php
+
+defined("DB_HOST") ? null : define("DB_HOST", "localhost");
+defined("DB_USER") ? null : define("DB_USER","phanl" );
+defined("DB_PASS") ? null : define("DB_PASS", "PLe9aVqXmJ" );
+defined("DB_NAME") ? null : define("DB_NAME","phanl" );
+$connection = mysqli_connect(DB_HOST , DB_USER , DB_PASS , DB_NAME);
+
+function query($sql)
+{
+	global $connection;
+	return mysqli_query($connection, $sql);
+}
+
+function confirm($result)
+{
+	global $connection;
+	if(!$result)
+	{
+		die("QUERY FAILED". mysqli_error($connection));
+	}
+}
+
+extract($_POST);
+
+$sql = "INSERT INTO userscores(userid,modulename,userscore,usertime) VALUES ('11','{$subject}',{$userscore},'{$timetaken}')";
+echo $sql;
+$query = query($sql);
+confirm($query);
+
+?>
