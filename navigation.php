@@ -55,7 +55,9 @@ if (isset($_SESSION['username'])){
                          <li><a href="#about" class="smoothScroll">About</a></li>
                          <li><a href="#testimonial" class="smoothScroll">Reviews</a></li>
                          <li><a href="#contact" class="smoothScroll">Contact</a></li>
-				     <li><a href="">My Account</a></li>
+						 <li><a href="learntocode.php" class="smoothScroll">LearnToCode</a></li>
+						 <li><a href="chat.php" class="smoothScroll">Chat</a></li>
+				     <li><a href="myaccount.php">My Account</a></li>
                          <li><a href="modules.php">My Modules</a></li>
 						 
             

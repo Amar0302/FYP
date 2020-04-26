@@ -33,7 +33,7 @@
                                         <div class="col-md-6 col-sm-12">
                                              <h1>Learn Mathematics at your own pace.</h1>
                                              <h3>Our online modules are designed to integrate directly with your university courses.</h3>
-                                             <a href="#feature" class="section-btn btn btn-default smoothScroll">Discover more</a>
+                                             <a href="modules.php" class="section-btn btn btn-default smoothScroll">Discover more</a>
                                         </div>
                                    </div>
                               </div>
@@ -45,7 +45,7 @@
                                         <div class="col-md-6 col-sm-12">
                                              <h1>Test yourselves with our built in interactive quizzes!</h1>
                                              <h3>See how much you have achieved with our interactive module quizzes at the end of the tutorials!</h3>
-                                             <a href="#courses" class="section-btn btn btn-default smoothScroll">Take me there</a>
+                                             <a href="modules.php" class="section-btn btn btn-default smoothScroll">Take me there</a>
                                         </div>
                                    </div>
                               </div>
@@ -139,70 +139,70 @@
                               <div class="col-md-4 col-sm-4">
                                    <div class="item">
                                         <div class="tst-image">
-                                             <img src="images/tst-image1.jpg" class="img-responsive" alt="">
+                                             <img src="images/image1.jpg" class="img-responsive" alt="">
                                         </div>
                                         <div class="tst-author">
-                                             <h4>Taran</h4>
-                                             <span>Unemployed</span>
-                                        </div>
-                                        <p>This site is great! I now understand KS2 Maths!!</p>
-                                        <div class="tst-rating">
-                                             <i class="fa fa-star"></i>
-                                             <i class="fa fa-star"></i>
-                                             <i class="fa fa-star"></i>
-                                             <i class="fa fa-star"></i>
-                                             <i class="fa fa-star"></i>
-                                        </div>
-                                   </div>
-                              </div>
-
-                              <div class="col-md-4 col-sm-4">
-                                   <div class="item">
-                                        <div class="tst-image">
-                                             <img src="images/tst-image2.jpg" class="img-responsive" alt="">
-                                        </div>
-                                        <div class="tst-author">
-                                             <h4>Joel</h4>
-                                             <span>Professional FIFA Player</span>
-                                        </div>
-                                        <p>This site is new and exciting. It has definitely helped me with my FIFA calculations!</p>
-                                        <div class="tst-rating">
-                                             <i class="fa fa-star"></i>
-                                             <i class="fa fa-star"></i>
-                                             <i class="fa fa-star"></i>
-                                        </div>
-                                   </div>
-                              </div>
-
-                              <div class="col-md-4 col-sm-4">
-                                   <div class="item">
-                                        <div class="tst-image">
-                                             <img src="images/tst-image3.jpg" class="img-responsive" alt="">
-                                        </div>
-                                        <div class="tst-author">
-                                             <h4>Test</h4>
-                                             <span>Test</span>
-                                        </div>
-                                        <p>Test</p>
-                                        <div class="tst-rating">
-                                             <i class="fa fa-star"></i>
-                                             <i class="fa fa-star"></i>
-                                             <i class="fa fa-star"></i>
-                                             <i class="fa fa-star"></i>
-                                        </div>
-                                   </div>
-                              </div>
-
-                              <div class="col-md-4 col-sm-4">
-                                   <div class="item">
-                                        <div class="tst-image">
-                                             <img src="images/tst-image4.jpg" class="img-responsive" alt="">
-                                        </div>
-                                        <div class="tst-author">
-                                             <h4>Test 2</h4>
+                                             <h4>Meera</h4>
                                              <span>Student</span>
                                         </div>
-                                        <p>Test</p>
+                                        <p>This site is great! I now understand how to solve complex problems!</p>
+                                        <div class="tst-rating">
+                                             <i class="fa fa-star"></i>
+                                             <i class="fa fa-star"></i>
+                                             <i class="fa fa-star"></i>
+                                             <i class="fa fa-star"></i>
+                                             <i class="fa fa-star"></i>
+                                        </div>
+                                   </div>
+                              </div>
+
+                              <div class="col-md-4 col-sm-4">
+                                   <div class="item">
+                                        <div class="tst-image">
+                                             <img src="images/image2.jpg" class="img-responsive" alt="">
+                                        </div>
+                                        <div class="tst-author">
+                                             <h4>Kushal</h4>
+                                             <span>Carpenter</span>
+                                        </div>
+                                        <p>This site is new and exciting. It has definitely helped me with my building calculations!</p>
+                                        <div class="tst-rating">
+                                             <i class="fa fa-star"></i>
+                                             <i class="fa fa-star"></i>
+                                             <i class="fa fa-star"></i>
+                                        </div>
+                                   </div>
+                              </div>
+
+                              <div class="col-md-4 col-sm-4">
+                                   <div class="item">
+                                        <div class="tst-image">
+                                             <img src="images/image3.jpg" class="img-responsive" alt="">
+                                        </div>
+                                        <div class="tst-author">
+                                             <h4>Jake</h4>
+                                             <span>Student</span>
+                                        </div>
+                                        <p>Great site, has helped me complete my final year at university.</p>
+                                        <div class="tst-rating">
+                                             <i class="fa fa-star"></i>
+                                             <i class="fa fa-star"></i>
+                                             <i class="fa fa-star"></i>
+                                             <i class="fa fa-star"></i>
+                                        </div>
+                                   </div>
+                              </div>
+
+                              <div class="col-md-4 col-sm-4">
+                                   <div class="item">
+                                        <div class="tst-image">
+                                             <img src="images/image4.jpg" class="img-responsive" alt="">
+                                        </div>
+                                        <div class="tst-author">
+                                             <h4>Laura</h4>
+                                             <span>Assistant Teacher</span>
+                                        </div>
+                                        <p>This site has been great for my students during holiday periods!</p>
                                         <div class="tst-rating">
                                              <i class="fa fa-star"></i>
                                              <i class="fa fa-star"></i>
@@ -247,7 +247,7 @@
 
                     <div class="col-md-6 col-sm-12">
                          <div class="contact-image">
-                              <img src="images/contact-image.jpg" class="img-responsive" alt="Smiling Two Girls">
+                              <img src="images/contact.jpg" class="img-responsive" alt="Smiling Two Girls">
                          </div>
                     </div>
 
@@ -271,13 +271,13 @@
                               </address>
 
                               <ul class="social-icon">
-                                   <li><a href="#" class="fa fa-facebook-square" attr="facebook icon"></a></li>
-                                   <li><a href="#" class="fa fa-twitter"></a></li>
-                                   <li><a href="#" class="fa fa-instagram"></a></li>
+                                   <li><a href="http://www.facebook.com" class="fa fa-facebook-square" attr="facebook icon"></a></li>
+                                   <li><a href="http://www.twitter.com" class="fa fa-twitter"></a></li>
+                                   <li><a href="http://www.instagram.com" class="fa fa-instagram"></a></li>
                               </ul>
 
                               <div class="copyright-text"> 
-                                   <p>Copyright &copy; 2019 EasyAsPi</p>
+                                   <p>Copyright &copy; 2020 EasyAsPi</p>
                               </div>
                          </div>
                     </div>
@@ -288,14 +288,14 @@
                                    <h2>Contact Info</h2>
                               </div>
                               <address>
-                                   <p><a href="mailto:youremail.co">sampleemail@youremail.co.uk</a></p>
+                                   <p><a href="mailto:email@easyaspi.co.uk">email@easyaspi.co.uk</a></p>
                               </address>
 
                               <div class="footer_menu">
                                    <h2>Quick Links</h2>
                                    <ul>
                                         <li><a href="#top">Home</a></li>
-                                        <li><a href="#">Terms & Conditions</a></li>
+                                        <li><a href="tc.php">Terms & Conditions</a></li>
                                    </ul>
                               </div>
                          </div>

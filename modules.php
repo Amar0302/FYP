@@ -7,6 +7,9 @@
      <section class="navbar custom-navbar navbar-fixed-top" role="navigation">
           <?php
 	include 'navigation.php';
+	
+	if (!isset($_SESSION['username']))
+    header("Location: login.php");
 	?>
 
   <style>
@@ -123,67 +126,67 @@ body {
  
  <div class="grid">
   <div class ="column firstyear">
-  <a class="module">Analysis</a>
+  <a class="module" href="analysis.php">Analysis</a>
   </div>
   <div class ="column firstyear">
-  <a class="module">Linear Algebra</a>
+  <a class="module" href="linearalgebra.php">Linear Algebra</a>
   </div>
   <div class ="column firstyear">
-  <a class="module">Mathematical Thinking</a>
+  <a class="module" href="mathematicalthinking.php">Mathematical Thinking</a>
   </div>
   <div class ="column firstyear">
-  <a class="module">Mathematical Methods</a>
+  <a class="module" href="mathematicalmethods.php">Mathematical Methods</a>
   </div>
   <div class ="column firstyear">
-  <a class="module">Computing and Numerical Methods</a>
+  <a class="module" href="numericalmethods.php">Computing and Numerical Methods</a>
   </div>
   <div class ="column firstyear">
-  <a class="module">Geometry and Groups</a>
+  <a class="module" href="geometryandgroups.php">Geometry and Groups</a>
   </div>
   <div class ="column firstyear">
-  <a class="module">Probability and Statistics</a>
+  <a class="module" href="probabilityandstatistics.php">Probability and Statistics</a>
   </div>
   <div class ="column firstyear">
-  <a class="module">Mechanics</a>
+  <a class="module" href="mechanics.php">Mechanics</a>
   </div>
   <div class ="column firstyear">
-  <a class="module">Analysis 2</a>
+  <a class="module" href="analysis2.php">Analysis 2</a>
   </div>
   <div class ="column firstyear">
-  <a class="module">Mathematical Methods 2</a>
+  <a class="module" href="mathematicalmethods2.php">Mathematical Methods 2</a>
   </div>
   <div class ="column secondyear">
-  <a class="module">Probability Theory</a>
+  <a class="module" href="probabilitytheory.php">Probability Theory</a>
   </div>
   <div class ="column secondyear">
-  <a class="module">Applied Statistics</a>
+  <a class="module" href="appliedstatistics.php">Applied Statistics</a>
   </div>
   <div class ="column secondyear">
-  <a class="module">Complex Variables</a>
+  <a class="module" href="complexvariables.php">Complex Variables</a>
   </div>
   <div class ="column secondyear">
-  <a class="module">ODEs & Calculus of Variations</a>
+  <a class="module" href="odes.php">ODEs & Calculus of Variations</a>
   </div>
   <div class ="column secondyear">
-  <a class="module">Introduction to Stochastic Processes</a>
+  <a class="module" href="stochasticprocesses.php">Introduction to Stochastic Processes</a>
   </div>
   <div class ="column thirdyear">
-  <a class="module">Number Theory</a>
+  <a class="module" href="numbertheory.php">Number Theory</a>
   </div>
   <div class ="column thirdyear">
-  <a class="module">Graph Theory</a>
+  <a class="module" href="graphtheory.php">Graph Theory</a>
   </div>
   <div class ="column thirdyear">
-  <a class="module">Cryptography and Network Security</a>
+  <a class="module" href="cryptography.php">Cryptography and Network Security</a>
   </div>
   <div class ="column thirdyear">
-  <a class="module">Vibration and Waves</a>
+  <a class="module" href="waves.php">Vibration and Waves</a>
   </div>
   <div class ="column thirdyear">
-  <a class="module">Game Theory</a>
+  <a class="module" href="gametheory.php">Game Theory</a>
   </div>
   <div class ="column thirdyear">
-  <a class="module">Medical Statistics</a>
+  <a class="module" href="medicalstatistics.php">Medical Statistics</a>
   </div>
 </div>
 
